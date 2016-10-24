@@ -10,6 +10,12 @@ input.placeholder= "correo electronico"
 var input=  document.getElementById("inputPassword");
 input.placeholder= "Contraseña"
 
+ var ticketRemember=document.querySelector('.checkbox span');
+    ticketRemember.innerHTML= "recordar datos";
+ var boton= document.getElementsByTagName('button')[0];
+   boton.innerHTML="iniciar Sesion";
 
+
+  
 
 
